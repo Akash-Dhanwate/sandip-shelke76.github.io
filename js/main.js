@@ -55,7 +55,7 @@ if (form) {
       const doorType = form.querySelector('[name="door_type"]').value;
       const message = form.querySelector('[name="message"]').value;
       const waText = `Hello Deluxe Enterprises!%0AName: ${name}%0APhone: ${phone}%0ADoor Type: ${doorType}%0AMessage: ${message}`;
-      window.open(`https://wa.me/918329764135?text=${waText}`, '_blank');
+      window.open(`https://wa.me/919922084158?text=${waText}`, '_blank');
       btn.innerHTML = '<i class="fas fa-check"></i> Sent via WhatsApp!';
       btn.style.background = '#25d366';
       setTimeout(() => {
